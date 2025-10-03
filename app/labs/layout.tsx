@@ -53,6 +53,53 @@ const labConfigs = {
       { id: 'part-c', title: 'Part C: Next.js Integration' },
       { id: 'troubleshooting', title: 'Troubleshooting' },
     ]
+  },
+  'lab3': {
+    title: 'Lab 3: Testing AI Systems',
+    sections: [
+      { id: 'overview', title: 'Lab Overview' },
+      { id: 'prerequisites', title: 'Prerequisites Check' },
+      { id: 'part-a', title: 'Part A: Install Testing Tools' },
+      { id: 'pytest-setup', title: '1. Install Pytest' },
+      { id: 'part-b', title: 'Part B: Understanding Tests' },
+      { id: 'test-structure', title: '1. Test File Overview' },
+      { id: 'test-categories', title: '2. Test Categories' },
+      { id: 'part-c', title: 'Part C: Running Tests' },
+      { id: 'basic-test-run', title: '1. Basic Test Execution' },
+      { id: 'test-output', title: '2. Understanding Output' },
+      { id: 'test-scenarios', title: '3. Test Scenarios' },
+      { id: 'part-d', title: 'Part D: Test-Driven Development' },
+      { id: 'add-test', title: '1. Add Your Own Test' },
+      { id: 'optional-configs', title: '2. Optional Configuration' },
+      { id: 'part-e', title: 'Part E: Integration Testing' },
+      { id: 'end-to-end', title: '1. End-to-End Test' },
+      { id: 'ai-integration', title: '2. AI Integration Test' },
+      { id: 'troubleshooting', title: 'Troubleshooting' },
+    ]
+  },
+  'lab4': {
+    title: 'Lab 4: Deployment Pipelines (CI/CD)',
+    sections: [
+      { id: 'overview', title: 'Lab Overview' },
+      { id: 'prerequisites', title: 'Prerequisites Check' },
+      { id: 'part-a', title: 'Part A: GitHub Repository Setup' },
+      { id: 'repo-setup', title: '1. Repository Configuration' },
+      { id: 'secrets-setup', title: '2. Environment Secrets' },
+      { id: 'part-b', title: 'Part B: Next.js CI/CD Pipeline' },
+      { id: 'nextjs-workflow', title: '1. GitHub Actions Workflow' },
+      { id: 'trigger-workflow', title: '2. Trigger Your First Workflow' },
+      { id: 'part-c', title: 'Part C: MLOps Service CI/CD' },
+      { id: 'mlops-workflow', title: '1. MLOps Workflow Overview' },
+      { id: 'test-mlops-pipeline', title: '2. Test MLOps Pipeline' },
+      { id: 'part-d', title: 'Part D: Environment Management' },
+      { id: 'env-strategy', title: '1. Environment Strategy' },
+      { id: 'env-files', title: '2. Environment File Template' },
+      { id: 'part-e', title: 'Part E: Advanced Pipeline Features' },
+      { id: 'branch-protection', title: '1. Branch Protection Rules' },
+      { id: 'deployment-environments', title: '2. Deployment Environments' },
+      { id: 'monitoring-deployments', title: '3. Monitoring Deployments' },
+      { id: 'troubleshooting', title: 'Troubleshooting' },
+    ]
   }
 }
 
