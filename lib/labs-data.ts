@@ -37,6 +37,14 @@ export function getAllLabsSummary(): LabSummary[] {
       description: 'Build automated CI/CD pipelines with GitHub Actions to test, build, and deploy your AI application to production environments.',
       level: 'Advanced',
       technology: 'GitHub Actions'
+    },
+    {
+      id: 'lab5',
+      title: 'Lab 5: Containerization with Docker',
+      description: 'Learn Docker basics and containerize your Flask MLOps service for consistent deployment across different environments.',
+      duration: '2-3 hours',
+      level: 'Advanced',
+      technology: 'Docker'
     }
   ];
 }

@@ -100,6 +100,36 @@ const labConfigs = {
       { id: 'monitoring-deployments', title: '3. Monitoring Deployments' },
       { id: 'troubleshooting', title: 'Troubleshooting' },
     ]
+  },
+  'lab5': {
+    title: 'Lab 5: Containerization with Docker',
+    sections: [
+      { id: 'overview', title: 'Lab Overview' },
+      { id: 'prerequisites', title: 'Prerequisites Check' },
+      { id: 'part-a', title: 'Part A: Understanding Docker' },
+      { id: 'what-is-docker', title: '1. What is Docker?' },
+      { id: 'why-docker', title: '2. Why Use Docker?' },
+      { id: 'key-concepts', title: '3. Key Docker Concepts' },
+      { id: 'part-b', title: 'Part B: Install Docker' },
+      { id: 'install-docker', title: '1. Install Docker Desktop' },
+      { id: 'verify-install', title: '2. Verify Installation' },
+      { id: 'part-c', title: 'Part C: Containerize Flask Service' },
+      { id: 'create-dockerfile', title: '1. Create Dockerfile' },
+      { id: 'dockerignore', title: '2. Create .dockerignore' },
+      { id: 'build-image', title: '3. Build Docker Image' },
+      { id: 'run-container', title: '4. Run Docker Container' },
+      { id: 'test-container', title: '5. Test Containerized Service' },
+      { id: 'test-with-nextjs', title: '6. Test with Next.js' },
+      { id: 'part-d', title: 'Part D: Container Management' },
+      { id: 'basic-commands', title: '1. Essential Docker Commands' },
+      { id: 'debugging', title: '2. Debugging Containers' },
+      { id: 'part-e', title: 'Part E: Docker Compose (Optional)' },
+      { id: 'what-is-compose', title: '1. What is Docker Compose?' },
+      { id: 'create-compose', title: '2. Create docker-compose.yml' },
+      { id: 'env-file', title: '3. Create .env File' },
+      { id: 'use-compose', title: '4. Use Docker Compose' },
+      { id: 'troubleshooting', title: 'Troubleshooting' },
+    ]
   }
 }
 
