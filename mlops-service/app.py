@@ -174,7 +174,7 @@ def dashboard():
     Serve the MLOps dashboard
     """
     try:
-        with open('dashboard.html', 'r') as f:
+        with open('dashboard.html', encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
         return jsonify({
