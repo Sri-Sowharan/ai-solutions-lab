@@ -1,5 +1,4 @@
 name: MLOps Service Testing (Lab 4 Deployment Pipelines CI/CD)
-
 # This workflow handles automated testing of the Flask MLOps service
 
 on:
